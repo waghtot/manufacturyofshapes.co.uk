@@ -1,0 +1,36 @@
+    *{
+        font-family: "Lato";
+        font-weight: 300;
+        font-size: 15px;
+        line-height: 20px;
+        color:#414141;
+    }
+
+    body{
+    /* background-color:#8C24A5; */
+    background-color:#fff;
+    margin:0px;
+    padding:0px;
+    }
+
+    h1, h2, h3, h4, h5, h6{
+        font-family: "Teko";
+        font-weight: 400;
+    }
+
+    p{
+        font-family: "Lato";
+        font-weight: 300;
+        font-size: 17px;
+        line-height: 30px;
+    }
+
+    .menu-right{
+        float:right !important;
+    }
+
+    .logo{
+        line-height: 20px;
+        margin-top:10px;
+        color:#fff;
+    }
