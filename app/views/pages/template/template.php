@@ -34,36 +34,14 @@
             </div>
 
             <div class="container-fluid clean">
-                <img src="app/views/img/004a.jpeg" class="img-fluid">
+                <img src="app/views/img/003a.jpeg" class="img-fluid">
                 <div class="container centered">
                     <h1 class="text-left">Drugi srodek</h1>
                 </div>
             </div>
 
             <div class="container-fluid clean">
-                <img src="app/views/img/005a.jpeg" class="img-fluid">
-                <div class="container centered">
-                    <h1 class="text-left">Trzeci srodek</h1>
-                </div>
-            </div>
-
-            <div class="container-fluid clean">
-                <img src="app/views/img/006a.jpeg" class="img-fluid">
-                <div class="container centered">
-                    <h1 class="text-left">Trzeci srodek</h1>
-                </div>
-            </div>
-
-
-            <div class="container-fluid clean">
-                <img src="app/views/img/007a.jpeg" class="img-fluid">
-                <div class="container centered">
-                    <h1 class="text-left">Trzeci srodek</h1>
-                </div>
-            </div>
-
-            <div class="container-fluid clean">
-                <img src="app/views/img/008a.jpeg" class="img-fluid">
+                <img src="app/views/img/004a.jpeg" class="img-fluid">
                 <div class="container centered">
                     <h1 class="text-left">Trzeci srodek</h1>
                 </div>
@@ -75,7 +53,7 @@
                     <h1 class="text-left">Trzeci srodek</h1>
                 </div>
             </div>
-
+            
         </div>
 
         <?php
