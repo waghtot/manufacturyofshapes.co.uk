@@ -19,7 +19,7 @@
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
     
-        <title>nbp currency exchange</title>
+        <title>Manufactury of Shapes</title>
     </head>
     <body>
         <?php require_once "app/views/pages/template/menu.php"; ?>
@@ -53,7 +53,7 @@
                     <h1 class="text-left">Trzeci srodek</h1>
                 </div>
             </div>
-            
+
         </div>
 
         <?php
