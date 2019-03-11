@@ -60,7 +60,7 @@
 <div class="container space" id="Contact_Us">
     <div class="row">
         <div class="col-6">
-            <h1>Contact Us</h1>
+            <h1>Zapraszamy do kontaktu</h1>
             <p>
                 <?php require_once "contactForm.php"; ?>
             </p>
@@ -68,9 +68,6 @@
 
         <div class="col-6">
             <h1>&nbsp;</h1>
-            <p>
-                Zapraszamy do kontaktu.
-            <p>
             <p>
                 Jeśli masz jakieś pytania lub chcesz dowiedzieć się o nas nieco więcej. Prześlij nam swoje pytania lub informacje dotyczące projektu lub strony w tworzeniu których moglibyśmy służyć swoim doświadczeniem.
             <p>
