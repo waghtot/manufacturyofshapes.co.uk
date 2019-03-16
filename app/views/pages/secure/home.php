@@ -4,7 +4,7 @@
     <p class="center">Warren Buffett</p>
     <div class="quotation-line mx-auto"></div>
     </p>
-
+    <div class="quotation-space-down"></div>
 
     <!-- <p class="quotation">
     Sukces jest zdolnością do przejścia od jednej porażki do drugiej<br>bez utraty entuzjazmu.
