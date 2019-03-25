@@ -3,7 +3,8 @@
     <head>
 
         <meta charset="utf-8">
-        <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
+        <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
+
 
 
     <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
@@ -29,28 +30,28 @@
             <div class="container-fluid clean">
                 <img src="app/views/img/001a.jpeg"  class="img-fluid">
                 <div class="container centered">
-                    <h1 class="text-left">Pierwszy srodek</h1>
+                    <h1 class="text-left super-strong">£100 ZA STRONĘ?</h1>
                 </div>
             </div>
 
             <div class="container-fluid clean">
                 <img src="app/views/img/003a.jpeg" class="img-fluid">
                 <div class="container centered">
-                    <h1 class="text-left">Drugi srodek</h1>
+                    <h1 class="text-left super-strong">W KONTAKCIE</h1>
                 </div>
             </div>
 
             <div class="container-fluid clean">
                 <img src="app/views/img/004a.jpeg" class="img-fluid">
                 <div class="container centered">
-                    <h1 class="text-left">Trzeci srodek</h1>
+                    <h1 class="text-left super-strong">USZYTE NA MAIRĘ</h1>
                 </div>
             </div>
 
             <div class="container-fluid clean">
                 <img src="app/views/img/009a.jpeg" class="img-fluid">
                 <div class="container centered">
-                    <h1 class="text-left">Trzeci srodek</h1>
+                    <h1 class="text-left super-strong">WAŻNE I WAŻNIEJSZE</h1>
                 </div>
             </div>
 
@@ -58,6 +59,10 @@
 
         <?php
             View::render($path, $data);
+        ?>
+
+        <?php
+            require_once "app/views/pages/secure/footer.php";
         ?>
 
 

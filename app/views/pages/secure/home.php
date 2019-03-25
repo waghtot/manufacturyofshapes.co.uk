@@ -23,15 +23,17 @@
     <div class="container space">
 
         <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="white">£100 za stronę?</h1>
+                <img src="app/views/img/responsive.svg" class="img-fluid lead-image-space">
                 <p class="white">
                     Strona za "stówkę", to nasz propozycja dla małych jak i dopiero startujących firm, które chcą stać się bardziej widoczne dla swoich obecnych oraz przyszłych klientów. To produkt nie wymagający od firmy dużego zaangażowania czasu i środków, w stworzenie czytelnego przekazu. Powiedz nam kim jesteś i czym się zajmujesz a my pomożemy ci przygotować łatwo dostępną i czystą informację.
                 </p>
             </div>
 
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="white">W kontakcie...</h1>
+                <img src="app/views/img/keepincontact.svg" class="img-fluid lead-image-space">
                 <p class="white">
                     Kontakt z klientem jest rdzeniem każdej działalności bez względu na jej wielkość. "W kontakcie..." jest pomocą w realizacji tej części działalności twojej firmy. Jeśli masz już swoją stronę i myślisz o wzbogaceniu jej o kalendarz, dzięki któremu twoi klienci będą mogli zabukować spotkanie lub najdogodniejszy dla nich termin wykonania zlecenia, formularz kontaktowy lub oceny czy opinii? Tutaj też mamy wiele do zaoferowania.
                 </p>
@@ -39,14 +41,15 @@
         </div>
 
                 <div class="row">
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="white">Rozwiązanie na miarę</h1>
+                <img src="app/views/img/tailoredsolutions.svg" class="img-fluid lead-image-space">
                 <p class="white">
                     W zależności od tego czego potrzebujesz, służymy radą i pomysłami na przygotowanie możliwie najlepszego rozwiązania. Jeśli twoja aplikacja wymaga gromadzenia i przetwarzania informacji z jednego lub więcej źródeł. Planujesz wymianę danych z zewnętrznymi żródłami lub klientami w różnych formatach. Tutaj też możemy służyć swoją wiedzą i doświadczeniem. Pomożemy ci na dowolnym etapie pracy od projektu po wykonanie. 
                 </p>
             </div>
 
-            <div class="col-6">
+            <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="white">Ważne i ważniejsze</h1>
                 <p class="white">
                     Jeśli myślisz o wyróżnienu jakiegoś produktu czy usługi bez ingerencji w już istniącą stronę. Jako osobny element z powodu jego, sezonowości lub niepowtarzalności. Chetnie pomożemy w przygotowaniu materiałów do uruchomienia takiej informacji w dowolnej postaci. Jako mikrostrony w obrębie twojej głównej domeny, materiału do emisji w mediach społecznościowych, prezentacji lub w formie baneru reklamowego.  
@@ -59,15 +62,18 @@
 
 <div class="container space" id="Contact_Us">
     <div class="row">
-        <div class="col-6">
+        <div class="col-12">
             <h1>Zapraszamy do kontaktu</h1>
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-lg-6 col-md-6 col-sm-7 col-xs-12">
             <p>
                 <?php require_once "contactForm.php"; ?>
             </p>
         </div>
 
-        <div class="col-6">
-            <h1>&nbsp;</h1>
+        <div class="col-lg-6 col-md-6 col-sm-5 col-xs-12">
             <p>
                 Jeśli masz jakieś pytania lub chcesz dowiedzieć się o nas nieco więcej. Prześlij nam swoje pytania lub informacje dotyczące projektu lub strony w tworzeniu których moglibyśmy służyć swoim doświadczeniem.
             <p>
