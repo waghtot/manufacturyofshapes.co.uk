@@ -27,7 +27,7 @@
                 <h1 class="white">£100 za stronę?</h1>
                 <img src="app/views/img/responsive.svg" class="img-fluid lead-image-space">
                 <p class="white">
-                    Strona za "stówkę", to nasz propozycja dla małych jak i dopiero startujących firm, które chcą stać się bardziej widoczne dla swoich obecnych oraz przyszłych klientów. To produkt nie wymagający od firmy dużego zaangażowania czasu i środków, w stworzenie czytelnego przekazu. Powiedz nam kim jesteś i czym się zajmujesz a my pomożemy ci przygotować łatwo dostępną i czystą informację.
+                    Strona za "stówkę", to nasz propozycja dla małych jak i dopiero startujących firm, które chcą stać się bardziej widoczne dla swoich obecnych oraz przyszłych klientów. To produkt nie wymagający od firmy dużego zaangażowania czasu i środków, w stworzenie czytelnego przekazu. Powiedz nam kim jesteś i czym się zajmujesz a my pomożemy ci przygotować łatwo dostępną i czystą informację. Oferta nie obejmuje koszytów hostingu i domeny.
                 </p>
             </div>
 

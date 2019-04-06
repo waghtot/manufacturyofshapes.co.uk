@@ -8,13 +8,13 @@
   <div class="collapse navbar-collapse" id="navbarColor03">
     <ul class="navbar-nav ml-auto">
       <li class="nav-item active">
-        <a class="nav-link" href="#About_Us">About Us<span class="sr-only">(current)</span></a>
+        <a class="nav-link" href="#About_Us">O Nas<span class="sr-only">(current)</span></a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Websites">Websites</a>
+        <a class="nav-link" href="#Websites">Oferta</a>
       </li>
       <li class="nav-item">
-        <a class="nav-link" href="#Contact_Us">Contact Us</a>
+        <a class="nav-link" href="#Contact_Us">Kontakt</a>
       </li>
     </ul>
   </div>

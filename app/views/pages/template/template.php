@@ -16,9 +16,9 @@
     <link href="https://fonts.googleapis.com/css?family=Oswald:200,300,400,500,600,700" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700" rel="stylesheet">
-
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
 
+    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script> -->
     
         <title>Manufactury of Shapes</title>
     </head>
@@ -31,6 +31,7 @@
                 <img src="app/views/img/001a.jpeg"  class="img-fluid">
                 <div class="container centered">
                     <h1 class="text-left super-strong">£100 ZA STRONĘ?</h1>
+                    <h3 class="text-left">Nie obejmuje ceny hostingu i domeny</h3>
                 </div>
             </div>
 
@@ -38,6 +39,7 @@
                 <img src="app/views/img/003a.jpeg" class="img-fluid">
                 <div class="container centered">
                     <h1 class="text-left super-strong">W KONTAKCIE</h1>
+                    <p></p>
                 </div>
             </div>
 
@@ -45,6 +47,7 @@
                 <img src="app/views/img/004a.jpeg" class="img-fluid">
                 <div class="container centered">
                     <h1 class="text-left super-strong">USZYTE NA MAIRĘ</h1>
+                    <p></p>
                 </div>
             </div>
 
@@ -52,6 +55,7 @@
                 <img src="app/views/img/009a.jpeg" class="img-fluid">
                 <div class="container centered">
                     <h1 class="text-left super-strong">WAŻNE I WAŻNIEJSZE</h1>
+                    <p></p>
                 </div>
             </div>
 
@@ -69,8 +73,11 @@
         <script type="text/javascript" src="//code.jquery.com/jquery-1.11.0.min.js"></script>
         <script type="text/javascript" src="//code.jquery.com/jquery-migrate-1.2.1.min.js"></script>
         <script type="text/javascript" src="app/views/js/slick/slick/slick.min.js"></script>
+        <script src="http://ajax.aspnetcdn.com/ajax/jquery.validate/1.9/jquery.validate.js"></script>
         <script src="app/views/js/carousel.js"></script>
+    <script src="app/views/js/enquiry.js?v=2"></script>
 
+        
         <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.7/umd/popper.min.js" integrity="sha384-UO2eT0CpHqdSJQ6hJty5KVphtPhzWj9WO1clHTMGa3JDZwrnQq4sF86dIHNDz0W1" crossorigin="anonymous"></script>
         <script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.min.js" integrity="sha384-JjSmVgyd0p3pXB1rRibZUAYoIIy6OrQ6VrjIEaFf/nJGzIxFDsf4x0xIM+B07jRM" crossorigin="anonymous"></script>
     </body>
