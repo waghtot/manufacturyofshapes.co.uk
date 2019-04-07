@@ -54,6 +54,7 @@
 
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="white">Ważne i ważniejsze</h1>
+                <img src="app/views/img/important_things.svg" class="img-fluid lead-image-space">
                 <p class="white">
                     Jeśli myślisz o wyróżnieniu jakiegoś produktu czy usługi bez ingerencji w już istniejącą stronę, lub chcesz stworzyć osobny element z powodu jego sezonowości lub niepowtarzalności? Skontaktuj się z nami. Chętnie pomożemy w przygotowaniu materiałów do uruchomienia takiej informacji w dowolnej postaci - jako mikrostrony w obrębie twojej głównej domeny, materiału do emisji w mediach społecznościowych, prezentacji lub w formie baneru reklamowego.
                 </p>
