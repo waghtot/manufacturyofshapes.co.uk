@@ -13,9 +13,10 @@
     </p> -->
     <h1>O Nas</h1>
     <p>
-        Manufaktura Kształtów nie jest nazwą przypadkową. Trochę czasu zajęło nam znalezienie tej właściwej, w której moglibyśmy zamknąć nasze dotychczasowe dokonania i wykonane projekty. Różnoworność prac jakie wykonaliśy 
-
-        Pomagamy i tworzymy rozwiazania szyte na miarę potrzeb naszych klientów. W opraciu o zdobytą wiedzę i doswiadczenie w pracy z mediami drukowanymi oraz cyfrowymi postanowiliśmy rozpocząć własną przygodę oferując swoje usługi w tym zakresie wszystkim tym, którzy myślą o nadaniu swojemu biznesowu rozpoznawalnego kształtu i koloru. Manufaktura kształtów nie jest tutaj nazwą przypadkową. Wzięła się z różnorodności prac i projektów jakie wykonaliśmy w przeciągu ostatnich lat. Od wizualizacji danych przez projektowanie, przygotowanie do druku szerokiej gamy materiałów.  
+        Manufaktura Kształtów nie jest nazwą przypadkową. Trochę czasu zajęło nam znalezienie tej właściwej, w której moglibyśmy zamknąć nasze dotychczasowe dokonania. Wzięła się z różnorodności prac i projektów, jakie wykonaliśmy w przeciągu ostatnich lat - od wizualizacji danych przez projektowanie graficzne, przygotowanie do druku szerokiej gamy materiałów promocyjnych (ulotek, katalogow, banerow reklamowych), na stronach i aplikacjach internetowych konczac. 
+    </p>
+    <p>
+        W oparciu o zdobytą wiedzę i doswiadczenie w pracy z mediami drukowanymi oraz cyfrowymi postanowiliśmy rozpocząć własną przygodę, oferując swoje usługi w tym zakresie wszystkim tym, którzy myślą o nadaniu swojemu biznesowi rozpoznawalnego wizerunku. Naszymi klientami są głównie małe i średnie biznesy, szukające swej drogi w gąszczu szybko rozwijających się technologii i nowoczesnych metod dotarcia do jak najszerszego grona odbiorców. To dla nich wciąż uczymy się i rozwijamy, dbając aby proponowane przez nas kreatywne rozwiązania sprostały oczekiwaniom rynku i były dopasowane do charakteru firmy i preferencji klienta.  
     </p>    
 </div>
 
@@ -27,7 +28,9 @@
                 <h1 class="white">£100 za stronę?</h1>
                 <img src="app/views/img/responsive.svg" class="img-fluid lead-image-space">
                 <p class="white">
-                    Strona za "stówkę", to nasz propozycja dla małych jak i dopiero startujących firm, które chcą stać się bardziej widoczne dla swoich obecnych oraz przyszłych klientów. To produkt nie wymagający od firmy dużego zaangażowania czasu i środków, w stworzenie czytelnego przekazu. Powiedz nam kim jesteś i czym się zajmujesz a my pomożemy ci przygotować łatwo dostępną i czystą informację. Oferta nie obejmuje koszytów hostingu i domeny.
+                    Strona za "stówę", to nasza propozycja dla małych i dopiero startujących firm, które chcą stać się bardziej widoczne dla swoich obecnych oraz przyszłych klientów. To produkt nie wymagający od firmy dużego zaangażowania czasu i środków – po prostu powiedz nam kim jesteś i czym się	 zajmujesz, a my pomożemy ci przygotować łatwo dostępną i czystą informację.
+                    <br>
+                    Oferta nie obejmuje kosztów hostingu i domeny. 
                 </p>
             </div>
 
@@ -52,7 +55,7 @@
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="white">Ważne i ważniejsze</h1>
                 <p class="white">
-                    Jeśli myślisz o wyróżnienu jakiegoś produktu czy usługi bez ingerencji w już istniącą stronę. Jako osobny element z powodu jego, sezonowości lub niepowtarzalności. Chetnie pomożemy w przygotowaniu materiałów do uruchomienia takiej informacji w dowolnej postaci. Jako mikrostrony w obrębie twojej głównej domeny, materiału do emisji w mediach społecznościowych, prezentacji lub w formie baneru reklamowego.  
+                    Jeśli myślisz o wyróżnieniu jakiegoś produktu czy usługi bez ingerencji w już istniejącą stronę, lub chcesz stworzyć osobny element z powodu jego sezonowości lub niepowtarzalności? Skontaktuj się z nami. Chętnie pomożemy w przygotowaniu materiałów do uruchomienia takiej informacji w dowolnej postaci - jako mikrostrony w obrębie twojej głównej domeny, materiału do emisji w mediach społecznościowych, prezentacji lub w formie baneru reklamowego.
                 </p>
             </div>
         </div>
@@ -75,10 +78,10 @@
 
         <div class="col-lg-6 col-md-6 col-sm-5 col-xs-12">
             <p>
-                Jeśli masz jakieś pytania lub chcesz dowiedzieć się o nas nieco więcej. Prześlij nam swoje pytania lub informacje dotyczące projektu lub strony w tworzeniu których moglibyśmy służyć swoim doświadczeniem.
+                Jeśli potrzebujesz wyceny projektu lub chcesz dowiedzieć się o nas nieco więcej, prześlij nam swoje pytania, informacje dotyczące projektu lub strony, w tworzeniu których moglibyśmy służyć swoim doświadczeniem. 
             <p>
             </p>
-                Na każde pytanie postramy się odpowiedzieć możliwie najszybciej.
+                Na każde pytanie postaramy się odpowiedzieć możliwie jak najszybciej.
             </p>
         </div>
     </div>
