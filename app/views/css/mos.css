@@ -1,8 +1,8 @@
-    *{
+    *, p{
         font-family: "Lato";
         font-weight: 300;
-        font-size: 16px;
-        line-height: 20px;
+        font-size: 20px;
+        line-height: 35px;
         color:#414141;
         letter-spacing: 1px
     }
@@ -22,8 +22,6 @@
     p{
         font-family: "Lato";
         font-weight: 300;
-        font-size: 16px;
-        line-height: 25px;
     }
 
     input, textarea, .btn-main{
@@ -110,15 +108,19 @@
         text-align:center;
         font-family: "Lato";
         font-weight: 100;
-        font-size: 35px;
+        font-size: 60px;
         font-style:italic;
-        line-height: 50px;
+        line-height: 85px;
         color:#414141;
         padding-top:40px;
     }
 
     .quotation-space-down{
         margin-bottom:100px;
+    }
+
+    .quotation-person{
+        font-weight:600;   
     }
     
     .quotation-line{
@@ -170,3 +172,56 @@
         margin:50px 0px 40px 0px;
         padding:0px 50px 0px 50px;
     }
+
+    .top-space-60{
+        padding:60px 0px 0px 0px;
+    }
+
+    @media screen and (max-width: 575px) {
+        .container{
+            padding:15px;
+        }
+
+        h1{
+            font-size:50px !important;
+        }
+
+        .carousel{
+            display:none !important;
+        }
+    }
+
+    @media only screen and (min-width: 320px) and (max-width: 479px){
+        
+    }
+
+    @media only screen and (min-width: 480px) and (max-width: 767px){
+        .img-fluid{
+            padding-left:10px;
+            padding-right:10px;
+        }                
+    }
+
+    @media only screen and (min-width: 768px) and (max-width: 991px){
+        
+    }
+
+    @media only screen and (min-width: 992px){
+
+    }
+
+    /* @media screen and (max-width: 575px) {
+        .container{
+            padding:15px;
+        }
+        h1, h2, h3, h4, h5, h6{
+            font-size:-100% !important;
+        }
+    } */
+
+    /* @media screen and (max-width: 1200px) and (min-width: 980px) {
+        #collapseOne > div, #headingOne {
+            padding-left:65px;
+            padding-right:0px;
+        }
+    } */

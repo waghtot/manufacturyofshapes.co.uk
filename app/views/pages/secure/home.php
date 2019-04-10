@@ -1,7 +1,7 @@
 <div class="container space" id="About_Us">
     <p class="quotation">
-    Łańcuchy rutyny są zbyt lekkie, aby je odczuwać,<br>dopóki nie staną się zbyt ciężkie, aby je zerwać.
-    <p class="center">Warren Buffett</p>
+    Łańcuchy rutyny są zbyt lekkie,<br>aby je odczuwać,<br>dopóki nie staną się zbyt ciężkie,<br>aby je zerwać.
+    <p class="center quotation-person">Warren Buffett</p>
     <div class="quotation-line mx-auto"></div>
     </p>
     <div class="quotation-space-down"></div>
@@ -43,7 +43,7 @@
             </div>
         </div>
 
-                <div class="row">
+        <div class="row top-space-60">
             <div class="col-lg-6 col-md-6 col-sm-12 col-xs-12">
                 <h1 class="white">Rozwiązanie na miarę</h1>
                 <img src="app/views/img/tailoredsolutions.svg" class="img-fluid lead-image-space">
@@ -67,7 +67,7 @@
 <div class="container space" id="Contact_Us">
     <div class="row">
         <div class="col-12">
-            <h1>Zapraszamy do kontaktu</h1>
+            <h1>Kontakt</h1>
         </div>
     </div>
     <div class="row">
@@ -87,4 +87,3 @@
         </div>
     </div>
 </div>
-<?php // echo "<pre style=\"color:#000;\">".print_r($data, 1)."</pre>"; ?>
