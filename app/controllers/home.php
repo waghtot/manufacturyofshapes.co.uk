@@ -12,4 +12,5 @@ class Home {
         // $data = Exchange::getExchangeLast();
         View::template(VIEW.'home.php', $data);
     }
+    // nothing to do
 }
