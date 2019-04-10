@@ -3,17 +3,15 @@
 class Router
 {
     private $request;
-    private $method;
+    private $type;
     private $class;
 
     public function __construct()
     {
         $this->request = $_SERVER['REQUEST_URI'];
-        $this->method = strtolower($_SERVER['REQUEST_METHOD']);
-    
+        $this->type = strtolower($_SERVER['REQUEST_METHOD']);
         $class = $this->getClassName();
         $method = $this->getMethodName();
-    
         if($class !== false)
         {
             $this->class = $class;         
@@ -36,7 +34,10 @@ class Router
 
     public function getMethodName()
     {
-        $method;
+        $className = explode('/', $this->request);
+        if(count($className)>1){
+            return end($className);
+        }
     }
     
     
@@ -59,6 +60,6 @@ class Router
     public function dispatch()
     {
         $class = $this->class;
-        return new $class();
+        return new $class($this->getMethodName());
     }
 }

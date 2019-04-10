@@ -1,16 +1,39 @@
 <?php
 
+
 class Home {
 
-    public function __construct(){
-        return $this->index();
+    public function __construct($inmethod){
+        if(!empty($inmethod)){
+            $this->$inmethod();
+        }
+        else{
+            return $this->index();
+        }
     }
 
     public function index(){
 
         $data = array();
-        // $data = Exchange::getExchangeLast();
         View::template(VIEW.'home.php', $data);
     }
-    // nothing to do
+
+    public function enquiry(){
+        if(isset($_POST)){
+
+
+            $to = "waghtot@gmail.com";
+            $subject = "Enquiry";
+            $txt = $_POST['message'];
+            $headers = "MIME-Version: 1.0" . "\r\n";
+            $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
+            $headers .= "From: <".$_POST['email'].">". "\r\n" .
+            "CC: waghtot@gmail.com";
+            
+            mail($to,$subject,$txt,$headers);
+
+            echo json_encode('ok');
+        }
+
+    }
 }

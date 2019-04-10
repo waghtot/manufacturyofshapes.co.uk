@@ -1,16 +1,17 @@
 <div class="container space" id="About_Us">
-    <p class="quotation">
+    <!-- <p class="quotation">
     Łańcuchy rutyny są zbyt lekkie,<br>aby je odczuwać,<br>dopóki nie staną się zbyt ciężkie,<br>aby je zerwać.
     <p class="center quotation-person">Warren Buffett</p>
     <div class="quotation-line mx-auto"></div>
     </p>
-    <div class="quotation-space-down"></div>
+    <div class="quotation-space-down"></div> -->
 
-    <!-- <p class="quotation">
-    Sukces jest zdolnością do przejścia od jednej porażki do drugiej<br>bez utraty entuzjazmu.
-    <p class="center">Winston Churchill</p>
+    <p class="quotation">
+    Sukces jest zdolnością do przejścia<br>od jednej porażki do drugiej<br>bez utraty entuzjazmu.
+    <p class="center quotation-person">Winston Churchill</p>
     <div class="quotation-line mx-auto"></div>
-    </p> -->
+    </p>
+    <div class="quotation-space-down"></div>
     <h1>O Nas</h1>
     <p>
         Manufaktura Kształtów nie jest nazwą przypadkową. Trochę czasu zajęło nam znalezienie tej właściwej, w której moglibyśmy zamknąć nasze dotychczasowe dokonania. Wzięła się z różnorodności prac i projektów, jakie wykonaliśmy w przeciągu ostatnich lat - od wizualizacji danych przez projektowanie graficzne, przygotowanie do druku szerokiej gamy materiałów promocyjnych (ulotek, katalogow, banerow reklamowych), na stronach i aplikacjach internetowych konczac. 
