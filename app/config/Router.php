@@ -11,18 +11,20 @@ class Router
         $this->request = $_SERVER['REQUEST_URI'];
         $this->type = strtolower($_SERVER['REQUEST_METHOD']);
         $class = $this->getClassName();
-        $method = $this->getMethodName();
+        $method = $this->getMethodName(); // this is done - next step => partial views 
+
         if($class !== false)
         {
             $this->class = $class;         
         }
 
-        return self::dispatch();
+        return $this->dispatch();
     }
 
     public function getClassName()
     {
-        $className = explode('/', $this->request);
+        $className = $this->chopString($this->request)[0];
+
         if(isset($className[0]) && !empty($className[0]))
         {
             return $this->checkIfClassExists(ucwords($name));
@@ -34,15 +36,21 @@ class Router
 
     public function getMethodName()
     {
-        $className = explode('/', $this->request);
-        if(count($className)>1){
-            return end($className);
+        $method = array();
+        $method = $this->chopString($this->request);
+        if(!empty($method)){
+            // error_log('method name: '.print_r(end($method), 1));
+            return end($method);
         }
     }
-    
-    
-    
-    // method_exists('Directory','read')
+
+    public function chopString($string){
+        $stringtoarray = explode('/', $string);
+        if(!empty($stringtoarray)){
+            return $stringtoarray;
+        }
+
+    }
 
     public function checkIfClassExists($name){
         if (class_exists($name)) {

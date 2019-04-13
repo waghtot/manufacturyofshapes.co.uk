@@ -5,6 +5,7 @@ class Home {
 
     public function __construct($inmethod){
         if(!empty($inmethod)){
+            
             $this->$inmethod();
         }
         else{
@@ -35,8 +36,14 @@ class Home {
             // mail($to,$subject,$txt,$headers);
             // error_log('Send email: '.print_r(mail($to,$subject,$txt,$headers), 1));
             // imap_mail($to, $subject, $messge, $headers);
+            $data = array();
+            $data['params']['to'] = $to;
+            $data['params']['subject'] = $subject;
+            $data['params']['message'] = $messge;
+            $data['params']['message'] = $messge;
+
             mail($to, $subject, $messge, $headers);
-            error_log('Send email: '.print_r(mail($to, $subject, $messge, $headers), 1));
+            error_log('Send email: '.print_r($to, $subject, $messge, $headers, 1));
             echo json_encode('ok');
         }
 
