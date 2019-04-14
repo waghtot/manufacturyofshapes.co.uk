@@ -42,8 +42,8 @@
                             </p>
                         </div>
                         <div class="col-8">
-                            <p class="centered-paragraph-left quotation-small">Sukces jest zdolnością do przejścia od jednej porażki do drugiej bez utraty entuzjazmu.<br>
-                            <span class="quotation-small-author">- Winston Churchill -</span></p>
+                            <p class="centered-paragraph-left quotation-small">Nie musisz być bogaty, żeby zacząć, ale musisz zacząć, żeby byc bogaty.<br>
+                            <span class="quotation-small-author">- Les Brown -</span></p>
                         </div>
                     </div>   
                 </div>
