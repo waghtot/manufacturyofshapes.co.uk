@@ -29,21 +29,9 @@ class Home {
             $txt = $_POST['message'];
             $headers = "MIME-Version: 1.0" . "\r\n";
             $headers .= "Content-type:text/html;charset=UTF-8" . "\r\n";
-            // $headers .= "From: <".$_POST['email'].">". "\r\n" . "CC: waghtot@gmail.com";
-
-            // error_log('email header: '.print_r($headers, 1));
+            $headers .= "From: <".$_POST['email'].">". "\r\n" . "CC: waghtot@gmail.com";
             
-            // mail($to,$subject,$txt,$headers);
-            // error_log('Send email: '.print_r(mail($to,$subject,$txt,$headers), 1));
-            // imap_mail($to, $subject, $messge, $headers);
-            $data = array();
-            $data['params']['to'] = $to;
-            $data['params']['subject'] = $subject;
-            $data['params']['message'] = $messge;
-            $data['params']['message'] = $messge;
-
-            mail($to, $subject, $messge, $headers);
-            error_log('Send email: '.print_r($to, $subject, $messge, $headers, 1));
+            mail($to,$subject,$txt,$headers);
             echo json_encode('ok');
         }
 

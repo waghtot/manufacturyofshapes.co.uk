@@ -16,8 +16,6 @@
     <link href="https://fonts.googleapis.com/css?family=Lato:100,100i,300,300i,400,400i,700,700i,900,900i" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css?family=Teko:300,400,500,600,700" rel="stylesheet">
     <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
-
-    <!-- <script src="https://cdnjs.cloudflare.com/ajax/libs/jquery-validate/1.19.0/jquery.validate.min.js"></script> -->
     
         <title>Manufactury of Shapes</title>
     </head>
@@ -29,32 +27,91 @@
             <div class="container-fluid clean">
                 <img src="app/views/img/001a.jpeg"  class="img-fluid">
                 <div class="container centered">
-                    <h1 class="text-left super-strong">£100 ZA STRONĘ?</h1>
-                    <h3 class="text-left">Nie obejmuje ceny hostingu i domeny</h3>
+                    <div class="row">
+                        <div class="col-4 dark-back-sides both-violet">
+                            <h2 class="text-left super-strong">STRONA ZA £100</h2>
+                            <p class="text-left lead-one">Pakiet podstawowy:</p>
+                            <p>
+                                <ul>
+                                    <li class="text-left lead">Informacje o firmie,</li>
+                                    <li class="text-left lead">Oferta dla klienta,</li>
+                                    <li class="text-left lead">Galeria,</li>
+                                    <li class="text-left lead">Formularz kontaktowy,</li>
+                                    <li class="text-left lead">Google map.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="centered-paragraph-left quotation-small">Sukces jest zdolnością do przejścia od jednej porażki do drugiej bez utraty entuzjazmu.<br>
+                            <span class="quotation-small-author">- Winston Churchill -</span></p>
+                        </div>
+                    </div>   
                 </div>
             </div>
 
             <div class="container-fluid clean">
                 <img src="app/views/img/003a.jpeg" class="img-fluid">
                 <div class="container centered">
-                    <h1 class="text-left super-strong">W KONTAKCIE</h1>
-                    <p></p>
+                    <div class="row">
+                        <div class="col-4 dark-back-sides both-violet">
+                            <h2 class="text-left super-strong">W KONTAKCIE</h2>
+                            <p class="text-left lead-one">Wsparcie dla komunikacji:</p>
+                            <p>
+                                <ul>
+                                    <li class="text-left lead">Formularze kontaktowe,</li>
+                                    <li class="text-left lead">Kalendarze spotkań,</li>
+                                    <li class="text-left lead">Implementacja nowych narzędzi komunikacji w istniejących projektach</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="centered-paragraph-left quotation-small">Bądź na tyle blisko swoich  klientów, aby powiedzieć im czego chcą, zanim sami się na to zdecydują.<br>
+                            <span class="quotation-small-author">- Steve Jobs -</span></p>
+                        </div>
+                    </div>   
                 </div>
             </div>
 
             <div class="container-fluid clean">
-                <img src="app/views/img/004a.jpeg" class="img-fluid">
+                <img src="app/views/img/003a.jpeg" class="img-fluid">
                 <div class="container centered">
-                    <h1 class="text-left super-strong">USZYTE NA MAIRĘ</h1>
-                    <p></p>
+                    <div class="row">
+                        <div class="col-4 dark-back-sides both-violet">
+                            <h2 class="text-left super-strong">USZYTE NA MIARĘ</h2>
+                            <p class="text-left lead-one">Lek na całe zło:</p>
+                            <p></p>
+                            <p class="text-left lead">
+                                Powiedz nam czego potrzebujesz do usprawnienia swojej działalności a my postaramy się zaproponować najlepsze rozwiązanie. 
+                            </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="centered-paragraph-left quotation-small">Teraz nie pora myśleć o tym, czego ci brak. Lepiej pomyśl, co możesz zrobić z tym, co masz.<br>
+                            <span class="quotation-small-author">- Ernest Hemingway -</span></p>
+                        </div>
+                    </div>   
                 </div>
             </div>
 
             <div class="container-fluid clean">
-                <img src="app/views/img/009a.jpeg" class="img-fluid">
+                <img src="app/views/img/003a.jpeg" class="img-fluid">
                 <div class="container centered">
-                    <h1 class="text-left super-strong">WAŻNE I WAŻNIEJSZE</h1>
-                    <p></p>
+                    <div class="row">
+                        <div class="col-4 dark-back-sides both-violet">
+                            <h2 class="text-left super-strong">... I WAŻNIEJSZE</h2>
+                            <p class="text-left lead-one">Wyróżnienie produktu:</p>
+                            <p>
+                                <ul>
+                                    <li class="text-left lead">Micro Sites,</li>
+                                    <li class="text-left lead">Kampanie,</li>
+                                    <li class="text-left lead">Przygotowanie materiałów w ujednoliconej formie dla wielu typów publikacji.</li>
+                                </ul>
+                            </p>
+                        </div>
+                        <div class="col-8">
+                            <p class="centered-paragraph-left quotation-small">Interes, który nic poza pieniędzmi nie przynosi, jest złym interesem.<br>
+                            <span class="quotation-small-author">- Henry Ford -</span></p>
+                        </div>
+                    </div>   
                 </div>
             </div>
 

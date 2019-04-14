@@ -6,18 +6,18 @@
     </p>
     <div class="quotation-space-down"></div> -->
 
-    <p class="quotation">
+    <!-- <p class="quotation">
     Sukces jest zdolnością do przejścia<br>od jednej porażki do drugiej<br>bez utraty entuzjazmu.
     <p class="center quotation-person">Winston Churchill</p>
     <div class="quotation-line mx-auto"></div>
-    </p>
-    <div class="quotation-space-down"></div>
+    </p> -->
+    <!-- <div class="quotation-space-down"></div> -->
     <h1>O Nas</h1>
     <p>
-        Manufaktura Kształtów nie jest nazwą przypadkową. Trochę czasu zajęło nam znalezienie tej właściwej, w której moglibyśmy zamknąć nasze dotychczasowe dokonania. Wzięła się z różnorodności prac i projektów, jakie wykonaliśmy w przeciągu ostatnich lat - od wizualizacji danych przez projektowanie graficzne, przygotowanie do druku szerokiej gamy materiałów promocyjnych (ulotek, katalogow, banerow reklamowych), na stronach i aplikacjach internetowych konczac. 
+        Manufaktura Kształtów nie jest nazwą przypadkową. Trochę czasu zajęło nam znalezienie tej właściwej, w której moglibyśmy zamknąć nasze dotychczasowe dokonania. Wzięła się z różnorodności prac i projektów, jakie wykonaliśmy w przeciągu ostatnich lat - od wizualizacji danych przez projektowanie graficzne, przygotowanie do druku szerokiej gamy materiałów promocyjnych (ulotek, katalogów, banerów reklamowych), na stronach i aplikacjach internetowych kończąc. 
     </p>
     <p>
-        W oparciu o zdobytą wiedzę i doswiadczenie w pracy z mediami drukowanymi oraz cyfrowymi postanowiliśmy rozpocząć własną przygodę, oferując swoje usługi w tym zakresie wszystkim tym, którzy myślą o nadaniu swojemu biznesowi rozpoznawalnego wizerunku. Naszymi klientami są głównie małe i średnie biznesy, szukające swej drogi w gąszczu szybko rozwijających się technologii i nowoczesnych metod dotarcia do jak najszerszego grona odbiorców. To dla nich wciąż uczymy się i rozwijamy, dbając aby proponowane przez nas kreatywne rozwiązania sprostały oczekiwaniom rynku i były dopasowane do charakteru firmy i preferencji klienta.  
+        W oparciu o zdobytą wiedzę i doświadczenie w pracy z mediami drukowanymi oraz cyfrowymi postanowiliśmy rozpocząć własną przygodę, oferując swoje usługi w tym zakresie wszystkim tym, którzy myślą o nadaniu swojemu biznesowi rozpoznawalnego wizerunku. Naszymi klientami są głównie małe i średnie biznesy, szukające swej drogi w gąszczu szybko rozwijających się technologii i nowoczesnych metod dotarcia do jak najszerszego grona odbiorców. To dla nich wciąż uczymy się i rozwijamy, dbając aby proponowane przez nas kreatywne rozwiązania sprostały oczekiwaniom rynku i były dopasowane do charakteru firmy i preferencji klienta.  
     </p>    
 </div>
 
@@ -29,7 +29,7 @@
                 <h1 class="white">£100 za stronę?</h1>
                 <img src="app/views/img/responsive.svg" class="img-fluid lead-image-space">
                 <p class="white">
-                    Strona za "stówę", to nasza propozycja dla małych i dopiero startujących firm, które chcą stać się bardziej widoczne dla swoich obecnych oraz przyszłych klientów. To produkt nie wymagający od firmy dużego zaangażowania czasu i środków – po prostu powiedz nam kim jesteś i czym się	 zajmujesz, a my pomożemy ci przygotować łatwo dostępną i czystą informację.
+                    Strona za "stówę", to nasza propozycja dla małych i dopiero startujących firm, które chcą stać się bardziej widoczne dla swoich obecnych oraz przyszłych klientów. To produkt nie wymagający od firmy dużego zaangażowania czasu i środków – po prostu powiedz nam kim jesteś i czym się zajmujesz, a my pomożemy ci przygotować łatwo dostępną i czystą informację.
                     <br>
                     Oferta nie obejmuje kosztów hostingu i domeny. 
                 </p>
