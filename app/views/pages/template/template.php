@@ -73,7 +73,7 @@
             </div>
 
             <div class="container-fluid clean">
-                <img src="app/views/img/003a.jpeg" class="img-fluid">
+                <img src="app/views/img/004a.jpeg" class="img-fluid">
                 <div class="container centered">
                     <div class="row">
                         <div class="col-4 dark-back-sides both-violet">
@@ -93,7 +93,7 @@
             </div>
 
             <div class="container-fluid clean">
-                <img src="app/views/img/003a.jpeg" class="img-fluid">
+                <img src="app/views/img/009a.jpeg" class="img-fluid">
                 <div class="container centered">
                     <div class="row">
                         <div class="col-4 dark-back-sides both-violet">
