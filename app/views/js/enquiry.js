@@ -15,7 +15,8 @@ var enquiry = {
 
 				var e = $('<div class\"\"><h3>Dziękujemy</h3><p>Twoja wiadomość została wysłana.</div>');
 
-				$('#contact_form').append(e);
+				$('#contact_form').replaceWith(e);
+				
 			});
 
 		});
