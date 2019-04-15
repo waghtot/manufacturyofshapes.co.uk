@@ -11,8 +11,8 @@ class Router
         $this->request = $_SERVER['REQUEST_URI'];
         $this->type = strtolower($_SERVER['REQUEST_METHOD']);
         $class = $this->getClassName();
-        $method = $this->getMethodName(); // this is done - next step => partial views 
-
+        $this->method = $this->getMethodName(); // this is done - next step => partial views
+        error_log('Method name once again: '.print_r($this->method, 1));
         if($class !== false)
         {
             $this->class = $class;         
@@ -39,7 +39,6 @@ class Router
         $method = array();
         $method = $this->chopString($this->request);
         if(!empty($method)){
-            // error_log('method name: '.print_r(end($method), 1));
             return end($method);
         }
     }
@@ -60,14 +59,19 @@ class Router
         }
     }
 
-    public function checkIfMethodExists($name)
+    public function checkIfMethodExists()
     {
+            if(!empty($this->method) && method_exists($this->class, $this->method)!==false){
+                return $this->method;
+            }else{
+                return '';
+            }
 
     }
 
     public function dispatch()
     {
         $class = $this->class;
-        return new $class($this->getMethodName());
+        return new $class($this->checkIfMethodExists());
     }
 }
