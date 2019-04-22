@@ -3,9 +3,6 @@ var enquiry = {
 
 		$('#send').click(function(){
 
-			console.log(enquiry.validateEmail());
-			console.log(enquiry.validateEnquiry());
-
 			if(enquiry.validateEmail()===true && enquiry.validateEnquiry()===true)
 			{
 				var dataset = {
@@ -41,7 +38,6 @@ var enquiry = {
 	validateEnquiry: function(){
 		var query = $('#u_query').val();
 		var state = false;
-		// console.log(query.length);
 		if(query.length>0){
 			state = true;
 		}
