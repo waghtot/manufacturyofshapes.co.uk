@@ -51,7 +51,7 @@
                             </p>
                         </div>
                         <div class="col-8">
-                            <p class="centered-paragraph-left quotation-small">Nie musisz być bogaty, żeby zacząć, ale musisz zacząć, żeby byc bogaty.<br>
+                            <p class="centered-paragraph-left quotation-small">Nie musisz być bogaty, żeby zacząć, ale musisz zacząć, żeby być bogaty.<br>
                             <span class="quotation-small-author">- Les Brown -</span></p>
                         </div>
                     </div>   
@@ -87,7 +87,7 @@
                     <div class="row">
                         <div class="col-4 dark-back-sides both-violet">
                             <h2 class="text-left super-strong">USZYTE NA MIARĘ</h2>
-                            <p class="text-left lead-one">Lek na całe zło:</p>
+                            <p class="text-left lead-one">Indywidualne podejście:</p>
                             <p></p>
                             <p class="text-left lead">
                                 Powiedz nam czego potrzebujesz do usprawnienia swojej działalności a my postaramy się zaproponować najlepsze rozwiązanie. 
