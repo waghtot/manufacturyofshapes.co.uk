@@ -69,6 +69,10 @@ class Router
 
     }
 
+    public function checkIfPartialView(){
+        
+    }
+
     public function dispatch()
     {
         $class = $this->class;

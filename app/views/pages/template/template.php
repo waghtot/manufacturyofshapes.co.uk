@@ -2,14 +2,14 @@
 <html lang="en">
     <head>
         <!-- Global site tag (gtag.js) - Google Analytics -->
-        <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138500604-1"></script>
+        <!-- <script async src="https://www.googletagmanager.com/gtag/js?id=UA-138500604-1"></script>
         <script>
         window.dataLayer = window.dataLayer || [];
         function gtag(){dataLayer.push(arguments);}
         gtag('js', new Date());
 
         gtag('config', 'UA-138500604-1');
-        </script>
+        </script> -->
 
         <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1, maximum-scale=1, user-scalable=no">
@@ -35,7 +35,7 @@
         <div class="carousel">
             <div class="container-fluid clean">
                 <img src="app/views/img/001a.jpeg"  class="img-fluid">
-                <div class="container centered">
+                <div class="container centered glass-backgroud-bright-20">
                     <div class="row">
                         <div class="col-4 dark-back-sides both-violet">
                             <h2 class="text-left super-strong">STRONA ZA £100</h2>
@@ -60,7 +60,7 @@
 
             <div class="container-fluid clean">
                 <img src="app/views/img/003a.jpeg" class="img-fluid">
-                <div class="container centered">
+                <div class="container centered glass-backgroud-bright-20">
                     <div class="row">
                         <div class="col-4 dark-back-sides both-violet">
                             <h2 class="text-left super-strong">W KONTAKCIE</h2>
@@ -83,7 +83,7 @@
 
             <div class="container-fluid clean">
                 <img src="app/views/img/004a.jpeg" class="img-fluid">
-                <div class="container centered">
+                <div class="container centered glass-backgroud-bright-20">
                     <div class="row">
                         <div class="col-4 dark-back-sides both-violet">
                             <h2 class="text-left super-strong">USZYTE NA MIARĘ</h2>
@@ -103,7 +103,7 @@
 
             <div class="container-fluid clean">
                 <img src="app/views/img/009a.jpeg" class="img-fluid">
-                <div class="container centered">
+                <div class="container centered glass-backgroud-dark-40">
                     <div class="row">
                         <div class="col-4 dark-back-sides both-violet">
                             <h2 class="text-left super-strong">... I WAŻNIEJSZE</h2>

@@ -1,25 +1,51 @@
 var enquiry = {
 	initialise: function(){
+
 		$('#send').click(function(){
 
-			var enquiry = {
-				"email":$('#u_email').val(),
-				"message":$('#u_query').val()
-			};
+			console.log(enquiry.validateEmail());
+			console.log(enquiry.validateEnquiry());
 
-			$.ajax ({
-				type: "POST",
-				url: "home/enquiry",
-				data: enquiry
-			}).done(function(res){
+			if(enquiry.validateEmail()===true && enquiry.validateEnquiry()===true)
+			{
+				var dataset = {
+					"email":$('#u_email').val(),
+					"message":$('#u_query').val()
+				};
 
-				var e = $('<div class\"\"><h3>Dziękujemy</h3><p>Twoja wiadomość została wysłana.</div>');
+				$.ajax ({
+					type: "POST",
+					url: "home/enquiry",
+					data: dataset
+				}).done(function(res){
 
-				$('#contact_form').replaceWith(e);
-				
-			});
+					var e = $('<div class\"\"><h3>Dziękujemy</h3><p>Twoja wiadomość została wysłana.</div>');
+
+					$('#contact_form').replaceWith(e);
+					
+				});
+			}else{
+				return false;
+			}
 
 		});
+	},
+
+	validateEmail: function(){
+		var email = $('#u_email').val();
+		var state = false;
+		state = /^([a-zA-Z0-9_\.\-])+\@(([a-zA-Z0-9\-])+\.)+([a-zA-Z0-9]{2,4})+$/.test(email);
+		return state;
+	},
+
+	validateEnquiry: function(){
+		var query = $('#u_query').val();
+		var state = false;
+		// console.log(query.length);
+		if(query.length>0){
+			state = true;
+		}
+		return state;
 	}
 };
 

@@ -1,9 +1,13 @@
 {
     "post":{
-
+        "home":{
+            "main":"enquiry"
+        }
     },
 
     "get":{
-        "/":"home"     
+        "home":{
+            "main":"enquiry"
+        }
     }
 }
